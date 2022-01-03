@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "tsc & node ./js/app.js",
+    "dev": "nodemon -e ts --exec \"npm start\"",
+    "watch-and-run": "tsc -q -w & nodemon -w js js/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/nurArkia/algorithms#readme",
   "devDependencies": {
+    "nodemon": "^2.0.15",
+    "tsc-watch": "^4.6.0",
     "typescript": "^4.5.4"
   }
 }
