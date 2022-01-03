@@ -1,3 +1,3 @@
-#Algorithms Learning Doc
+# Algorithms Learning Doc
 
-###repository of leaning codes and docs 
+### repository of leaning codes and docs 
