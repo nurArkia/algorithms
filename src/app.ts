@@ -1,6 +1,5 @@
-let a: number;
 
-a = 518;
-
-console.log(a);
+export function app(lib: string) {
+    return `${lib} is working!!!`
+}
 
